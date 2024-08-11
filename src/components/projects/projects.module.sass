@@ -1,0 +1,151 @@
+@use '../../theme.module'
+
+.block
+  &_title
+    font-size: 1.5rem
+    color: theme.$secondary
+    text-align: center
+    font-weight: 700
+    margin: 6rem 0 2rem
+    @media screen and (min-width: 1024px)
+      font-size: 2.5rem
+      margin: 3rem 0
+
+  &_no_decoration
+    text-align: left
+    font-size: 1.5rem
+    position: relative
+    margin: 1rem 0
+    @media screen and (min-width: 1024px)
+      font-size: 2.5rem
+      margin: 2rem 0
+
+  &__separator
+    width: 100%
+    height: 0.5px
+    background: theme.$primary100
+    margin: 20px 0 0
+    @media screen and (min-width: 1024px)
+      margin: 40px 0 0
+
+
+.table_contents
+  font-weight: 700
+  font-size: 0.9rem
+  color: theme.$primary
+  margin: 1rem 0
+  @media screen and (min-width: 1024px)
+    font-size: 1.1rem
+    margin: 3rem 0
+
+  &_list
+    list-style: none
+    color: theme.$secondary
+
+    & a
+      text-decoration: underline
+      font-weight: 400
+      font-size: 12px
+      @media screen and (min-width: 1024px)
+        font-size: 15px
+
+
+    & ul
+      list-style: none
+      margin: 10px 5px
+
+      @media screen and (min-width: 1024px)
+        margin: 20px 10px
+
+      & li
+        margin: 8px 0
+        @media screen and (min-width: 1024px)
+          margin: 16px 0
+
+.body
+  font-weight: 400
+  font-size: 13px
+  margin: 20px 0
+  line-height: 150%
+  @media screen and (min-width: 1024px)
+    font-size: 15px
+
+.project
+  &_header
+    padding: 20px
+    background: theme.$secondary
+
+    @media screen and (min-width: 1024px)
+      padding: 30px
+
+
+    &__heading
+      font-size: 1.1rem
+      color: theme.$white
+      text-align: center
+
+      @media screen and (min-width: 1024px)
+        font-size: 1.5rem
+
+  &_body
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    @media screen and (min-width: 1024px)
+      flex-direction: row
+      gap: 2%
+
+    &_text__container
+      @media screen and (min-width: 1024px)
+        width: 37%
+
+      &_heading
+        font-size: 1.1rem
+        color: theme.$secondary
+        margin: 20px 0
+        @media screen and (min-width: 1024px)
+          margin: 30px 0
+          font-size: 1.5rem
+
+    & p
+      line-height: 150%
+      color: theme.$primary
+      font-size: 12px
+      @media screen and (min-width: 1024px)
+        font-size: 14px
+
+
+    &_image__container
+      display: flex
+      overflow: hidden
+      margin: 30px 0
+
+      & img
+        display: block
+        width: 100%
+        height: auto
+        min-height: 350px
+        object-fit: cover
+
+      @media screen and (min-width: 1024px)
+        width: 60%
+        min-height: 450px
+
+
+    &_video__container
+      width: 100%
+      display: flex
+      margin: 1rem 0
+
+      @media screen and (min-width: 1024px)
+        margin: 2rem 0
+
+
+      & iframe
+        width: 100%
+        height: 300px
+        margin: 0 auto
+        border: 0
+        @media screen and (min-width: 1024px)
+          width: 85%
+          height: 450px

@@ -1,91 +1,99 @@
 @use '../../theme.module' as theme
 
 .root
-    display: grid
-    position: relative
-    overflow-x: hidden
-    @media screen and ( min-width:  1024px)
-        grid-template-columns: 300px auto
+  display: grid
+  position: relative
+  overflow-x: hidden
+  @media screen and (min-width: 1024px)
+    grid-template-columns: 300px auto
 
 .sidebarContainer
-    height: 100vh
-    background: theme.$primary
-    position: fixed
-    top: 0
-    left: -300px
-    z-index: 999
-    transition: all 0.5s ease
-    @media screen and ( min-width: 1024px  )
-        left: 0
-        opacity: 1
-        position: static
+  height: 100vh
+  background: theme.$primary
+  position: fixed
+  top: 0
+  left: -300px
+  z-index: 999
+  transition: all 0.5s ease
+  @media screen and (min-width: 1024px)
+    left: 0
+    opacity: 1
+    position: static
 
-    &__overlay
-        position: fixed
-        height: 100vh
-        width: 100vw
-        background: rgba(0, 0, 0, 0.7)
-        z-index: -1
-        visibility: hidden
-        opacity: 0
-        transition: all 0.4s ease
-        &__open
-            visibility: visible
-            z-index: 5
-            opacity: 1
+  &__overlay
+    position: fixed
+    height: 100vh
+    width: 100vw
+    background: rgba(0, 0, 0, 0.7)
+    z-index: -1
+    visibility: hidden
+    opacity: 0
+    transition: all 0.4s ease
+
+    &__open
+      visibility: visible
+      z-index: 5
+      opacity: 1
 
 .sidebarContainerMobile
-    @media screen and ( max-width:  1024px  )
-        left: 0
-        opacity: 1
+  @media screen and (max-width: 1024px)
+    left: 0
+    opacity: 1
 
 .sidebarRoot
-    position: relative
-    padding: calc( 8px * 4 )
+  position: relative
+  padding: calc(8px * 4)
 
 .sidebarTitle
-    font-size: 1.5rem
-    color: theme.$white
-    font-weight: 700
-    margin: 32px 0px
+  font-size: 1.5rem
+  color: theme.$white
+  font-weight: 700
+  margin: 32px 0px
 
 .navListContainer
-    list-style: none
-    padding: 0
+  list-style: none
+  padding: 0
 
-    li
-        margin: 24px 0px
-    a
-        color: theme.$white
-        text-decoration: none
-        transition: color 0.4s ease
-        &:hover
-            cursor: pointer
-            color:  theme.$secondary
-            
+  li
+    margin: 24px 0px
+
+  a
+    color: theme.$white
+    text-decoration: none
+    transition: color 0.4s ease
+
+    &:hover
+      cursor: pointer
+      color: theme.$secondary
+
+.link__active
+  color: theme.$secondary !important
+
 
 .closeButton
-    height: 24px
-    width: 24px
-    background: rgba(255,2555 ,255 ,0.5 )
-    display: flex
-    justify-content: center
-    align-items: center
-    cursor: pointer
-    border: 0
-    outline: 0
-    position: absolute
-    top: 30px
-    right: 30px
-    transition: all 0.2s ease            
-    &:hover
-        background: rgba(255, 255, 255, 0.8)
-    @media screen and ( min-width: 1024px )
-        display: none
+  height: 24px
+  width: 24px
+  background: rgba(255, 2555, 255, 0.5)
+  display: flex
+  justify-content: center
+  align-items: center
+  cursor: pointer
+  border: 0
+  outline: 0
+  position: absolute
+  top: 30px
+  right: 30px
+  transition: all 0.2s ease
 
-    svg
-        font-size: calc( theme.$fontSize + 4px  )
+  &:hover
+    background: rgba(255, 255, 255, 0.8)
+
+  @media screen and (min-width: 1024px)
+    display: none
+
+  svg
+    font-size: 18px
 
 .content
-    height: 100vh
-    overflow-y: scroll
+  height: 100vh
+  overflow-y: scroll

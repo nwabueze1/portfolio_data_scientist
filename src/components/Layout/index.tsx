@@ -13,13 +13,14 @@ export type LayoutPropsRef = {
 export const Layout = forwardRef<LayoutPropsRef, LayoutProps>(({ children, sidebar }, ref) => {
   const [open, setOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
-
+  const [activeUrl, setActiveUrl] = useState("/");
   const renderLinks = () =>
     sidebar.links.map((link, index) => (
       <li key={index}>
-        <Link href={link.url}>{link.title}</Link>
+        <Link href={link.url} className={link.url === activeUrl && styles.link__active}>{link.title}</Link>
       </li>
     ));
+
 
   useImperativeHandle(ref, () => {
     return {
@@ -30,19 +31,21 @@ export const Layout = forwardRef<LayoutPropsRef, LayoutProps>(({ children, sideb
   });
 
   useEffect(() => {
+    setActiveUrl(location.pathname);
     if (contentRef.current && typeof contentRef.current !== "undefined") {
       contentRef?.current?.addEventListener("scroll", () => {
         const element = document.getElementById("navbar");
         if (element) {
           const distanceFromTop = contentRef.current?.scrollTop;
-
-          element.style.background = distanceFromTop && distanceFromTop >= 270 ? "black" : "";
+          const isProjects = location.pathname === "/projects";
+          element.style.background = distanceFromTop && distanceFromTop >= (isProjects ? 170 : 270) ? "black" : "";
         }
       });
     }
 
     return () => {
-      window.removeEventListener("scroll", () => {});
+      window.removeEventListener("scroll", () => {
+      });
     };
   }, []);
 

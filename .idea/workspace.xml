@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3dcaedd-cb54-4bff-9bfd-96e04eedf583" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordion.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/footer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.module.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +57,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240811_0000",
-    "git-widget-placeholder": "develop",
+    "com.google.cloudcode.ide_session_index": "20240811_0001",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/wazob/personal/nextprojects/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,6 +70,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wazob\personal\nextprojects\portfolio\src\components\projects" />
+      <recent name="C:\Users\wazob\personal\nextprojects\portfolio\public" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +86,7 @@
       <updated>1723278379031</updated>
       <workItem from="1723278380181" duration="2953000" />
       <workItem from="1723345694183" duration="11418000" />
+      <workItem from="1723376179396" duration="9678000" />
     </task>
     <servers />
   </component>
