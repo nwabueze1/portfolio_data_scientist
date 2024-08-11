@@ -1,5 +1,5 @@
 export const aboutMeData = {
-  title: "About Me !",
+  title: "About Me!",
   passport_url:
     "https://media.istockphoto.com/id/615279718/photo/businesswoman-portrait-on-white.webp?s=1024x1024&w=is&k=20&c=DxbKxUfv3Wt32utA_POdJcXj4NkeCETbuInMKJgFFKk=",
   contents: [
