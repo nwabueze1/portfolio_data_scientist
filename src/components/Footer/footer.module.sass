@@ -1,0 +1,25 @@
+@use '../../theme.module' as theme
+
+.footer
+  padding: 26px 16px
+  background: theme.$secondary
+
+  &__content
+    width: 85%
+    margin: 0 auto
+    display: grid
+    gap: 16px
+
+    @media screen and (min-width: 1024px)
+      width: 65%
+
+    &__link
+      padding: 12px
+      border-radius: 2px
+      background: theme.$white
+      display: flex
+      justify-content: center
+      text-align: center
+      color: theme.$secondary
+
+

@@ -1,0 +1,11 @@
+$primary: #212121
+$secondary: #4E805A
+$primary100: #D3D3D2
+$white: #FFFFFF
+$fontSize: 12px
+$breakpoint: 1024px
+
+@function crateResponsiveFontSize($min, $max)
+  @return calc($min + $max - $min * (100vw - 380px) / 1772 - 380px)
+
+    
