@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3dcaedd-cb54-4bff-9bfd-96e04eedf583" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/hero.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/hero.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordion.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordion.module.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <updated>1723278379031</updated>
       <workItem from="1723278380181" duration="2953000" />
       <workItem from="1723345694183" duration="11418000" />
-      <workItem from="1723376179396" duration="10542000" />
+      <workItem from="1723376179396" duration="10665000" />
     </task>
     <servers />
   </component>
