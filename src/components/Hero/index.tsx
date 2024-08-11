@@ -3,14 +3,14 @@ import styles from "./hero.module.sass";
 import { MdMenu } from "react-icons/md";
 
 export const Hero: FC<{ onOpenSideBar?: () => void; hasContent?: boolean }> = ({
-  onOpenSideBar,
-  hasContent = true,
-}) => {
+                                                                                 onOpenSideBar,
+                                                                                 hasContent = true,
+                                                                               }) => {
   return (
     <>
       <nav className={styles.nav} id="navbar">
         <button onClick={onOpenSideBar}>
-          <MdMenu /> Anslem Okeke
+          <MdMenu className={styles.menu} /> Anslem Okeke
         </button>
       </nav>
       {hasContent && (
