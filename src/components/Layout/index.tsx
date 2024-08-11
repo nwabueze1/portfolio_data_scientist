@@ -17,7 +17,7 @@ export const Layout = forwardRef<LayoutPropsRef, LayoutProps>(({ children, sideb
   const renderLinks = () =>
     sidebar.links.map((link, index) => (
       <li key={index}>
-        <Link href={link.url} className={link.url === activeUrl && styles.link__active}>{link.title}</Link>
+        <Link href={link.url} className={link.url === activeUrl ? styles.link__active : ""}>{link.title}</Link>
       </li>
     ));
 

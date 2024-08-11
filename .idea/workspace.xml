@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3dcaedd-cb54-4bff-9bfd-96e04eedf583" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +25,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,7 +78,7 @@
       <updated>1723278379031</updated>
       <workItem from="1723278380181" duration="2953000" />
       <workItem from="1723345694183" duration="11418000" />
-      <workItem from="1723376179396" duration="9678000" />
+      <workItem from="1723376179396" duration="9981000" />
     </task>
     <servers />
   </component>
