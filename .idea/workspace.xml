@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3dcaedd-cb54-4bff-9bfd-96e04eedf583" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordion.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordion.module.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/images.module.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/images.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Typography/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +58,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240811_0001",
+    "com.google.cloudcode.ide_session_index": "20240825_0000",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/wazob/personal/nextprojects/portfolio",
     "node.js.detected.package.eslint": "true",
@@ -67,6 +76,9 @@
       <recent name="C:\Users\wazob\personal\nextprojects\portfolio\src\components\projects" />
       <recent name="C:\Users\wazob\personal\nextprojects\portfolio\public" />
     </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\wazob\personal\nextprojects\portfolio\src\components\projects\images.tsx" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,6 +91,8 @@
       <workItem from="1723278380181" duration="2953000" />
       <workItem from="1723345694183" duration="11418000" />
       <workItem from="1723376179396" duration="10665000" />
+      <workItem from="1723800215047" duration="54000" />
+      <workItem from="1724584289881" duration="3346000" />
     </task>
     <servers />
   </component>

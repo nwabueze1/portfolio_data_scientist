@@ -9,10 +9,15 @@ import { Hero } from "@/components";
 export default function Page() {
   const ref = useRef<LayoutPropsRef>(null);
 
-  return <Layout ref={ref} sidebar={sidebarData}>
-    <Hero hasContent={false} onOpenSideBar={() => {
-      ref.current?.OnOpenSidebar();
-    }} />
-    <Projects />
-  </Layout>;
+  return (
+    <Layout ref={ref} sidebar={sidebarData}>
+      <Hero
+        hasContent={false}
+        onOpenSideBar={() => {
+          ref.current?.OnOpenSidebar();
+        }}
+      />
+      <Projects />
+    </Layout>
+  );
 }

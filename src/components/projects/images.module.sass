@@ -1,0 +1,43 @@
+@use "../../theme.module" as theme
+
+.container
+  display: block
+  overflow: hidden
+  position: relative
+  width: 100%
+  height: auto
+  margin: 0 auto
+
+  & img
+    display: flex
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+
+.button
+  cursor: pointer
+  position: absolute
+  top: 50%
+  left: 10px
+  z-index: 2
+  background: theme.$white
+  height: 40px
+  width: 40px
+  display: flex
+  justify-content: center
+  align-items: center
+  border: 0
+
+  &:hover
+    opacity: 0.9
+
+
+  & svg
+    fill: theme.$secondary
+
+
+  &_right
+    left: unset
+    right: 10px
