@@ -2,10 +2,8 @@ export const aboutMeData = {
   title: "About Me!",
   passport_url: "/passport.jpeg",
   contents: [
-    `I am an emerging Data Science & Analytics professional, passionate about the iterative process of organizing and managing data, as well as creating visualizations, using statistical and machine learning methods to gain insights and drive decisions.`,
-    `Currently working at ATB Financial as a Data Scientist on the Client Intelligence Analytics team, I have showcased my robust skill set which includes executing comprehensive data extraction and transformation processes, developing tailored data products in collaboration with business stakeholders, and creating impactful executive presentations to highlight client trends and analytics. My professional development in this role is complemented by participation in a mentorship program, where I deepened my data science expertise and established a foundation for a well-rounded career.`,
-    `Previously, I have also gained valuable experience in my internship roles as a Data Management Intern at SiMPACT Strategy Group and as a Research Assistant on a healthcare-related machine learning project at the University of Calgary.`,
-    `I am driven about the importance of using data to solve real-world problems and am continually seeking opportunities to further enhance my skills and contribute to the field of data science.`,
+    `I am an aspiring Data Science and Analytics professional with a strong passion for organizing and managing data. I enjoy using statistical and machine learning techniques to create insightful visualizations that support data-driven decision-making`,
+    `As a Junior Data Scientist at Omdena, working on the Climate Change Maize Agricultural Yield project in Kenya, I have demonstrated a strong skill set in executing data extraction and transformation processes, developing customized data products in partnership with business stakeholders, and delivering impactful executive presentations to showcase client trends and analytics. My growth in this role is further enhanced by my participation in a mentorship program, where I have expanded my data science knowledge and built a solid foundation for a well-rounded career.`
   ],
   educationBackground: [
     {
