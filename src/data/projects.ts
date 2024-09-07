@@ -12,8 +12,9 @@ export const projectsData = [
               "Data Story: Discrimination in Canada and How it Has Changed since the COVID-19 Pandemic Began",
             content: `The visualizations for this project are for a datastory, which you can read in full HERE. An overview of the project can be found in the video below.`,
             images: [
-              "https://imageio.forbes.com/specials-images/imageserve/615a844b0e678d9d11c5fc26/0x0.jpg?format=jpg&height=225&width=400&fit=bounds",
-              "https://imageio.forbes.com/specials-images/imageserve/615a844b0e678d9d11c5fc26/0x0.jpg?format=jpg&height=225&width=400&fit=bounds",
+              "/image1.png",
+              "/image2.png",
+              "/image3.png"
             ],
             video: {
               title: "Overview of Discrimination in Canada Analysis",
