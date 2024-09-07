@@ -9,7 +9,7 @@ export const projectsData = [
         contents: [
           {
             title:
-              "Data Story: Discrimination in Canada and How it Has Changed since the COVID-19 Pandemic Began",
+              "Data Story: Discrimination in Canada and How it Has Changed since the COVID-19 Pandemic Begun",
             content: `The visualizations for this project are for a datastory, which you can read in full HERE. An overview of the project can be found in the video below.`,
             images: [
               "/image1.png",
